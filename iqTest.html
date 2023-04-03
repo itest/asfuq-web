@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IQ Test</title>
+  <script>
+    function checkAnswers() {
+      var score = 0;
+      if (document.getElementById("question1a").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question2b").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question3a").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question4a").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question5a").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question6a").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question7c").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question8c").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question9a").checked) {
+        score += 15;
+      }
+      if (document.getElementById("question10b").checked) {
+        score += 15;
+      }
+      alert ("Your score is " + score + "/150");
+      
+    }
+  </script>
+  <style>
+    .j{
+        width: 150px;
+        margin-left: 40%;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    .c{
+      margin-left: 1%;
+      font-size: x-large;
+    }
+    .co{
+      margin-left: 45%;
+      font-size: xx-large;
+      color: goldenrod;
+      margin-top: 8%;
+      text-decoration: underline;
+
+    }
+   
+      label.logo{
+        color: orange;
+        width: 50px;
+        line-height: 85px;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 0 25px;
+      }
+      nav ul{
+        float: right;
+        margin-right:20px ;
+        
+        
+      }
+      nav ul li{
+        display: inline-block;
+        line-height: 50px;
+        margin:0 5px;
+      }
+      nav ul li a{
+        color: aliceblue;
+        font-size: 20px;
+        padding: 10px 15px;
+        border-radius: 10px;
+      }
+      a.home,a:hover{
+       background-color: darkslateblue;
+       transition: .5s;
+       text-decoration: none;
+      }
+      a.contact,a:hover{
+       background-color: darkslateblue;
+       transition: .5s;
+       text-decoration: none;
+      }
+
+      a.fe,a:hover{
+       background-color: darkslateblue;
+       transition: .5s;
+       text-decoration: none;
+      }
+      .back{
+      background-image:url(S1.jpg);
+      background-size: cover;
+      background-repeat: repeat;
+      height: 50vh;
+      width: 100%;
+      border-bottom-left-radius: 40% 40%;
+      border-bottom-right-radius: 40% 40%;
+      overflow: hidden;
+    }
+
+  </style>
+</head>
+<body >
+    <nav class="back">
+        <label class="logo">MENU</label>
+          <ul>
+              <li><a class="home" href="MultiSite.html">Home</a></li>
+              <li><a class="contact" href="Help and contact.html">Help and contact</a></li>
+              <li><a class="fe" href="Team Info.html">Team Info</a></li>
+          </ul>
+          <h1 class="co">IQ Test</h1>
+    </nav>
+  
+  <form>
+    <p class="c">Question 1: What is HTML?</p>
+    <input class="c" type="radio" id="question1a" name="question1" value="A">A. Hypertext Markup Language<br>
+    <input class="c" type="radio" name="question1" value="B">B. Hyperlink and Text Markup Language<br>
+    <input class="c" type="radio" name="question1" value="C">C. Home Tool Markup Language<br>
+
+    <p class="c">Question 2: Who is the founder of Apple Inc.?</p>
+    <input class="c" type="radio" name="question2" value="A">A. Bill Gates<br>
+    <input class="c" type="radio" id="question2b" name="question2" value="B">B. Steve Jobs<br>
+    <input class="c" type="radio" name="question2" value="C">C. Mark Zuckerberg<br>
+    
+    <p class="c">Question 3: What is the capital of France?</p>
+    <input class="c" type="radio" id="question3a" name="question3" value="A">A. Paris<br>
+    <input class="c" type="radio" name="question3" value="B">B. London<br>
+    <input class="c" type="radio" name="question3" value="C">C. Rome<br>
+
+    <p class="c">Question 4: What is the currency of Japan?</p>
+    <input class="c" type="radio" id="question4a" name="question4" value="A">A. Yen<br>
+    <input class="c" type="radio" name="question4" value="B">B. Dollar<br>
+    <input class="c" type="radio" name="question4" value="C">C. Euro<br>
+    <p class="c">Question 5: Who wrote the novel "War and Peace"?</p>
+    <input class="c"type="radio" id="question5a" name="question5" value="A">A. Leo Tolstoy<br>
+    <input class="c" type="radio" name="question5" value="B">B. Jane Austen<br>
+    <input class="c" type="radio" name="question5" value="C">C. William Shakespeare<br>
+
+    <p class="c">Question 6: Who painted the famous artwork "The Starry Night"?</p>
+    <input class="c" type="radio" id="question6a" name="question6" value="A">A. Vincent van Gogh<br>
+    <input class="c" type="radio" name="question6" value="B">B. Pablo Picasso<br>
+    <input class="c" type="radio" name="question6" value="C">C. Salvador Dali<br>
+
+    <p class="c">Question 7: What is the highest mountain in the world?</p>
+    <input class="c" type="radio" name="question7" value="A">A. Mount Kilimanjaro<br>
+    <input class="c" type="radio" name="question7" value="B">B. Mount Everest<br>
+    <input class="c" type="radio" id="question7c" name="question7" value="C">C. Mount Everest (8,848 meters)<br>
+
+    <p class="c">Question 8: Who is known as the father of the Internet?</p>
+    <input class="c" type="radio" name="question8" value="A">A. Bill Gates<br>
+    <input class="c" type="radio" name="question8" value="B">B. Steve Jobs<br>
+    <input class="c" type="radio" id="question8c" name="question8" value="C">C. Vint Cerf<br>
+
+    <p class="c">Question 9: Who invented the telephone?</p>
+    <input class="c" type="radio" id="question9a" name="question9" value="A">A. Alexander Graham Bell<br>
+    <input class="c" type="radio" name="question9" value="B">B. Thomas Edison<br>
+    <input class="c" type="radio" name="question9" value="C">C. Nikola Tesla<br>
+
+    <p class="c">Question 10: Who wrote the famous play "Hamlet"?</p>
+    <input class="c" type="radio" name="question10" value="A">A. William Shukespeare<br>
+    <input class="c" type="radio" id="question10b" name="question10" value="B">B. William Shakespeare<br>
+    <input class="c" type="radio" name="question10" value="C">C. Oscar Wilde<br>
+  </form>
+  <button class="j" onclick="checkAnswers()">Submit</button>
+  
+</body>
+</html>
